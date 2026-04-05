@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+
+# API development files
+api/
+
+# Data folders
+data/
+
+# Models folder
+models/
+
+# Source code if not needed publicly
+src/
+
+# Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Outputs if you want to exclude
+Week-1/outputs/
