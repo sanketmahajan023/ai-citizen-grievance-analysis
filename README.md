@@ -39,65 +39,47 @@ To run this project:
 ✔ Data Loading & Inspection
   
   ⦁ Loaded dataset using Pandas
-  
   ⦁ Checked dataset shape and structure
-  
   ⦁ Sampled, Slicing done for select 20,000 rows efficiently
 
 ✔ Data Cleaning
 
   ⦁ Handled missing values
-  
   ⦁ Selected relevant Columns-Fill the missing values
 
 ✔ Text Preprocessing
   
   ⦁ Converted text to lowercase
-  
   ⦁ Removed URLS
-  
   ⦁ Removed special characters
-  
   ⦁ Removed stopwords
-  
   ⦁ Applied lemmatization
 
 ✔ Exploratory Data Analysis (EDA)
   
   ⦁ Analyzed data distribution
-  
   ⦁ Identified patterns in complaints
 
 ✔ Visualization
   
   ⦁ Generated WordCloud for text insights 
-  
   ⦁ Created plots using Matplotlib & Seaborn
 
 ✔ NLP Feature Extraction
   
   ⦁ Unigram analysis
-  
   ⦁ Bigram analysis
-  
   ⦁ CountVectorizer implementation
 
 🛠️ Tools & Technologies
 
   ⦁ Python
-
   ⦁ Pandas
-
   ⦁ NumPy
-
   ⦁ Matplotlib
-
   ⦁ Seaborn 
-
   ⦁ Scikit-learn
-
   ⦁ NLTK
-
   ⦁ Jupyter Notebook
 
 📂 Project Structure
