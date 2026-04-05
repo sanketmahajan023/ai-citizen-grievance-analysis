@@ -12,19 +12,19 @@ The objective of this project is to analyze citizen grievance data using Natural
 
 📂 Dataset
      
-  ● Dataset Name: NYC 311 Service Requests(2009) 
+  ⦁ Dataset Name: NYC 311 Service Requests(2009) 
   
-  ● Source: Kaggle
+  ⦁ Source: Kaggle
   
-  ● Link: https://www.kaggle.com/datasets/sheikmohamed/nyc-311-service-requests-for-2009/data
+  ⦁ Link: https://www.kaggle.com/datasets/sheikmohamed/nyc-311-service-requests-for-2009/data
   
-  ● Main Source: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-for-2009/3rfa-3xsf
+  ⦁ Main Source: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-for-2009/3rfa-3xsf
 
 📊 Dataset Details
   
-  ● Original Size: ~1.7 million records
+  ⦁ Original Size: ~1.7 million records
   
-  ● Sample Used: 20,000 records (for efficient processing)
+  ⦁ Sample Used: 20,000 records (for efficient processing)
 
 📥 Dataset Access
 
@@ -38,65 +38,73 @@ To run this project:
 
 ✔ Data Loading & Inspection
   
-  ● Loaded dataset using Pandas
+  ⦁ Loaded dataset using Pandas
   
-  ● Checked dataset shape and structure
+  ⦁ Checked dataset shape and structure
   
-  ● Sampled, Slicing done for select 20,000 rows efficiently
+  ⦁ Sampled, Slicing done for select 20,000 rows efficiently
 
 ✔ Data Cleaning
 
-  ● Handled missing values
+  ⦁ Handled missing values
   
-  ● Selected relevant Columns-Fill the missing values
+  ⦁ Selected relevant Columns-Fill the missing values
 
 ✔ Text Preprocessing
   
-  ● Converted text to lowercase
+  ⦁ Converted text to lowercase
   
-  ● Removed URLS
+  ⦁ Removed URLS
   
-  ● Removed special characters
+  ⦁ Removed special characters
   
-  ● Removed stopwords
+  ⦁ Removed stopwords
   
-  ● Applied lemmatization
+  ⦁ Applied lemmatization
 
 ✔ Exploratory Data Analysis (EDA)
   
-  ● Analyzed data distribution
+  ⦁ Analyzed data distribution
   
-  ● Identified patterns in complaints
+  ⦁ Identified patterns in complaints
 
 ✔ Visualization
   
-  ● Generated WordCloud for text insights 
+  ⦁ Generated WordCloud for text insights 
   
-  ● Created plots using Matplotlib & Seaborn
+  ⦁ Created plots using Matplotlib & Seaborn
 
 ✔ NLP Feature Extraction
   
-  ● Unigram analysis
+  ⦁ Unigram analysis
   
-  ● Bigram analysis
+  ⦁ Bigram analysis
   
-  ● CountVectorizer implementation
+  ⦁ CountVectorizer implementation
 
 🛠️ Tools & Technologies
 
-  ● Python
+  ⦁ Python
 
-  ● Pandas
+  ⦁ Pandas
 
-  ● NumPy
+  ⦁ NumPy
 
-  ● Matplotlib
+  ⦁ Matplotlib
 
-  ● Seaborn 
+  ⦁ Seaborn 
 
-  ● Scikit-learn
+  ⦁ Scikit-learn
 
-  ● NLTK
+  ⦁ NLTK
 
-  ● Jupyter Notebook
+  ⦁ Jupyter Notebook
 
+📂 Project Structure
+
+ai-citizen-grievance-analysis/
+│── Week-1/
+│   └── week1_eda_data.ipynb
+│── README.md
+│── .gitignore
+│── LICENSE
